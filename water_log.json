@@ -1,0 +1,18 @@
+{
+    "total_lifetime_ml": 800,
+    "daily_summary": {
+        "2026-08-15": {
+            "daily_total_ml": 800,
+            "logs": [
+                {
+                    "amount_ml": 400,
+                    "time": "17:51:26"
+                },
+                {
+                    "amount_ml": 400,
+                    "time": "17:51:41"
+                }
+            ]
+        }
+    }
+}
