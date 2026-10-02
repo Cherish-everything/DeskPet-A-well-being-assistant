@@ -55,16 +55,16 @@ void loop()
   }
   lastButtonState = currentButtonState;
 
-  // 2. Hourly Water Reminder Check
+  // Water Check
   if (currentMillis - lastWaterTime >= reminderInterval)
   {
     playReminderBeep();
     Serial.println("Reminder: Drink some water!");
-    // Short grace period before beeping again if ignored (e.g., every 5 minutes)
+
     lastWaterTime = currentMillis - (reminderInterval - 300000);
   }
 
-  // 3. DHT Sensor Reading
+  //DHT 11
   if (currentMillis - lastDHTReadTime >= dhtInterval)
   {
     lastDHTReadTime = currentMillis;
@@ -72,7 +72,7 @@ void loop()
     humidity = dht.readHumidity();
   }
 
-  // 4. Room Comfort Alert Logic
+  // Alert
   int personPresent = digitalRead(IR_PIN);
   if (personPresent == LOW && humidity >= 60 && temp >= 30)
   {
