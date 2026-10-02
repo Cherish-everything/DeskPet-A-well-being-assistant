@@ -44,6 +44,7 @@ DeskPet/
 ├── main.cpp          # Arduino code handling sensor timing, alerts, and serial output
 ├── logger.py          # Python script receiving serial data and writing to JSON
 └── water_log.json     # Generated database tracking daily and lifetime water intake
+```
 
 ### Bill of Materials (BOM)
 
