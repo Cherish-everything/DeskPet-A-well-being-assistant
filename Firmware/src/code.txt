@@ -1,0 +1,16 @@
+    Serial.println("Person detected!");
+    delay(50);
+    if (personPresent == LOW)
+    {
+      Serial.print("Temperature: ");
+      Serial.print(temp);
+      Serial.print("°C, Humidity: ");
+      Serial.print(humidity);
+      Serial.println("%");
+      Serial.println("Open a window!");
+      tone(BUZZER_PIN, 1000); // Sound the buzzer at 1000 Hz
+    }
+    else
+    {
+      noTone(BUZZER_PIN); // Stop the buzzer
+    }

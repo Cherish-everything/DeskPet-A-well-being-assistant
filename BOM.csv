@@ -1,0 +1,16 @@
+Category,Item,Description / Spec,Qty,Footprint / Connection,Target Vendor / Search Link,Est. Unit Price (USD),Est. Total Price (USD)
+Core Hardware,Microcontroller,Arduino Uno R3 Board,1,Standalone Board,https://www.amazon.com/dp/B008GRTSV6,6.00,6.00
+Core Hardware,USB Cable,USB Type-A to Type-B Cable,1,Standard USB,https://www.amazon.com/dp/B00NH11KIK,1.50,1.50
+On-Board PCB,Custom PCB,DeskPet Custom PCB Shield (2-layer FR-4),1,Custom Shield,https://jlcpcb.com,1.50,1.50
+On-Board PCB,Push Button,6x6mm Through-Hole Tactile Switch,1,SW_PUSH_6mm,https://www.lcsc.com/product-detail/C128634.html,0.15,0.15
+On-Board PCB,Buzzer,12mm Passive Piezo Buzzer,1,BUZZER-PTH,https://www.lcsc.com/product-detail/C96436.html,0.35,0.35
+On-Board PCB,Resistor (Optional),10k Ohm 1/4W Through-Hole Resistor,1,Axial-0.3,https://www.lcsc.com/product-detail/C58620.html,0.04,0.04
+On-Board PCB,Capacitor (Optional),0.1uF Ceramic Capacitor,1,Radial / 2.54mm pitch,https://www.lcsc.com/product-detail/C14022.html,0.04,0.04
+Off-Board / Modules,DHT11 Sensor,DHT11 Temp & Humidity Module,1,3-Pin Connector,https://www.amazon.com/dp/B01DKC2GQ0,1.20,1.20
+Off-Board / Modules,IR Proximity Sensor,Active-LOW IR Obstacle Sensor Module,1,3-Pin Connector,https://www.amazon.com/dp/B073S1SNNW,0.80,0.80
+Off-Board / Modules,Sensor Pin Headers,1x3 Male Pin Headers (2.54mm pitch),2,Conn_01x03_Pin,https://www.lcsc.com/product-detail/C2893.html,0.08,0.16
+Off-Board / Modules,Shield Headers,2.54mm Male Pin Header Strip,1,Standard Arduino Pins,https://www.lcsc.com/product-detail/C2891.html,0.35,0.35
+Off-Board / Modules,Jumper Wires,Female-to-Female Jumper Wires,1 set,DuPont 2.54mm,https://www.amazon.com/dp/B00KG3KNOE,0.80,0.80
+Enclosure & Hardware,Enclosure Body & Lid,3D-Printed Custom Shell (PLA/PETG),1,Custom 3D Model,https://www.polymaker.com,1.50,1.50
+Enclosure & Hardware,Fasteners,M3 x 8mm Button/Cap Head Screws,4,M3 Thread,https://www.amazon.com/dp/B013S3W3E4,0.05,0.20
+Enclosure & Hardware,Threaded Inserts,M3 Brass Heat-Set Inserts (M3 x 5 x 4 mm),4,M3 x 5 mm Boss,https://www.amazon.com/dp/B08T17223P,0.08,0.32
